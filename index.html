@@ -3,6 +3,7 @@ var getFucked;
 var millisecondsToWait = 5000;
 var steeleLit = prompt("IS STELLE LI?");
 if (steeleLit != "FUCK YEA"){
+setTimeout(function() {
     while(true){
     getFucked += "steeleDOPEADF";
     var xhttp = new XMLHttpRequest();
@@ -15,13 +16,8 @@ if (steeleLit != "FUCK YEA"){
     xhttp.open("GET", "http://fuckit.tech");
     xhttp.send();
 }
+}, millisecondsToWait);
 }else{
     alert("Fo shizzle")
 }
 </script>
-<style>
-  body {
-    background-image: url("fuckit.jpg");
-        background-size: contain;
-  }
-</style>
